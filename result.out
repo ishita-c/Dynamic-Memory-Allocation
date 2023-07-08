@@ -1,0 +1,45 @@
+Itteration1
+Allocate size 10
+FreeBlk : (9->-2),(0->100),
+AllocBlk : 
+Itteration2
+Allocate size 10
+FreeBlk : (9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration3
+Allocate size 10
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration4
+Free address 30
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration5
+Free address 10
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration6
+Free address 0
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration7
+Free address 20
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration8
+Defrag
+FreeBlk : (9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+Itteration9
+Allocate size 100
+FreeBlk : (99->-2),(9->-2),(9->-2),(9->-2),(0->100),
+AllocBlk : 
+-1
+-1
+-1
+0
+0
+0
+0
+-5
+-1
